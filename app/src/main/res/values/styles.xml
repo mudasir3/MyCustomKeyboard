@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="textColor">#000000</item>
+        <item name="textColorSecondary">#717171</item>
+    </style>
+
+    <style name="DarkAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="textColor">#ffffff</item>
+        <item name="textColorSecondary">#DAA8A8A8</item>
+    </style>
+
+    <style name="TextBody" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">?textColor</item>
+    </style>
+
+</resources>

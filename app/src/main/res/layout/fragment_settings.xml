@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F0F0F0"
+    android:orientation="vertical">
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="Settings"-->
+<!--        android:textSize="22sp"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textStyle="bold" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/whitebackground">
+
+        <TextView
+            android:id="@+id/txtholddown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="Hold down paste speed "
+            android:textSize="17sp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+             />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtholddown"
+            app:trackColor="#2196F3"
+            android:layout_marginHorizontal="20dp"
+            app:thumbColor="@color/white"
+            android:valueFrom="0.0"
+            android:valueTo="10.0"
+            android:stepSize="1.0" />
+
+        <TextView
+            android:id="@+id/txtfastspeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="Very fast speed "
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:textColor="#2196F3"
+            android:layout_below="@id/slider"
+            />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#dddddd"
+            android:layout_below="@+id/txtfastspeed"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/view3"
+            android:layout_marginHorizontal="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Auto Paste "
+                android:textSize="17sp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"
+                />
+
+            <Switch
+                android:id="@+id/switchAutoPaste"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:trackTint="@color/blue"
+                android:thumbTint="#2196F3"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="With this setting, when you hold to paste multiple times you can just tap stop when you want to stop pasting"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#666666"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/reltutorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="15dp"
+        android:padding="10dp"
+        android:background="@drawable/whitebackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tutorial"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/keyboard_arrow_right"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FEEDBACK"
+        android:textSize="16sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#666666"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="15dp"
+        android:padding="10dp"
+        android:background="@drawable/whitebackground">
+
+        <RelativeLayout
+            android:id="@+id/relreportbug"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:paddingVertical="5dp"
+            >
+
+            <TextView
+                android:id="@+id/txtreportbug"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Report Bug"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/keyboard_arrow_right"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#dddddd"
+            android:layout_below="@+id/relreportbug"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="5dp"/>
+
+    <RelativeLayout
+        android:id="@+id/relsuggestfeature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="10dp"
+        android:paddingVertical="5dp"
+        android:layout_below="@id/view1"
+        >
+
+        <TextView
+            android:id="@+id/txtsuggestfeature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suggest Feature"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/keyboard_arrow_right"/>
+
+    </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="15dp"
+        android:padding="10dp"
+        android:background="@drawable/whitebackground">
+
+    <RelativeLayout
+        android:id="@+id/relshareapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:paddingVertical="5dp"
+        >
+
+        <TextView
+            android:id="@+id/txtshareapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share App"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/keyboard_arrow_right"/>
+
+    </RelativeLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#dddddd"
+            android:layout_below="@+id/relshareapp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="5dp"/>
+
+    <RelativeLayout
+        android:id="@+id/reltipdeveloper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="10dp"
+        android:paddingVertical="5dp"
+        android:layout_below="@id/view2"
+        >
+
+        <TextView
+            android:id="@+id/txttipdeveloper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tip Developer"
+            android:textSize="16sp"
+            android:textColor="#2196F3"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/keyboard_arrow_right"/>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipping help keeping this app ad-free.The money goes to help develop future updates"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#666666"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APP HELP"
+        android:textSize="16sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#666666"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="15dp"
+        android:padding="10dp"
+        android:background="@drawable/whitebackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="keyboard not showing up?"
+            android:textSize="16sp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/keyboard_arrow_right"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>
