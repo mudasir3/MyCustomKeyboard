@@ -1,7 +1,6 @@
 package com.ipooglecodes.testandrodapp.Activities
 
 
-
 import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
