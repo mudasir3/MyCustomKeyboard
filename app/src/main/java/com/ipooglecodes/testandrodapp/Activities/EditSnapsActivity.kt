@@ -29,6 +29,7 @@ import com.ironsource.mediationsdk.sdk.InterstitialListener
 
 var lastPostitonIndex = -1
 
+
 class EditSnapsActivity() : AppCompatActivity() {
     private var mInterstitialAd: InterstitialAd? = null
 
