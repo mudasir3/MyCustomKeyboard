@@ -35,6 +35,7 @@ class EditSnapsActivity() : AppCompatActivity() {
 
     var firstLoad=true
 
+
     override fun onResume() {
         super.onResume()
         if(firstLoad){
