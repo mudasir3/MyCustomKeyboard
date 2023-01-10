@@ -42,6 +42,7 @@ class EditSnapsActivity() : AppCompatActivity() {
         }
         else
         {
+
             val intent = Intent(this@EditSnapsActivity, MainActivity::class.java)
             startActivity(intent)
         }
