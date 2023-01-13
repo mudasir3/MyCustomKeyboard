@@ -52,6 +52,7 @@ class EditSnapsActivity() : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_edit_snaps)
 
+
         setUpInterstitial()
         setUpIronSource()
 
