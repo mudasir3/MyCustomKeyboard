@@ -55,6 +55,7 @@ class EditSnapsActivity() : AppCompatActivity() {
         setUpInterstitial()
         setUpIronSource()
 
+
         val actionBar = supportActionBar
         var textView = findViewById<EditText>(R.id.editTextTextMultiLine)
         val selectAllButton = findViewById<Button>(R.id.selectAllButton)
