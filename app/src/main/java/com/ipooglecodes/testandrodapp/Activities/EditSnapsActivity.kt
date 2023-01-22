@@ -62,6 +62,7 @@ class EditSnapsActivity() : AppCompatActivity() {
         val pasteButton = findViewById<Button>(R.id.pasteButton)
 
 
+
         //registerForContextMenu(textView)
         textView.requestFocus()
         val imm: InputMethodManager = this.getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
