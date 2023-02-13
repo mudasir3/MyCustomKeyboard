@@ -62,6 +62,7 @@ class EditSnapsActivity() : AppCompatActivity() {
         val pasteButton = findViewById<Button>(R.id.pasteButton)
 
 
+
         //registerForContextMenu(textView)
 
 
