@@ -61,6 +61,7 @@ class EditSnapsActivity() : AppCompatActivity() {
         val selectAllButton = findViewById<Button>(R.id.selectAllButton)
         val pasteButton = findViewById<Button>(R.id.pasteButton)
 
+
         //registerForContextMenu(textView)
 
         textView.requestFocus()
