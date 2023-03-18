@@ -66,6 +66,7 @@ class EditSnapsActivity() : AppCompatActivity() {
 
 
 
+
         textView.requestFocus()
         val imm: InputMethodManager = this.getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
         imm.toggleSoftInput(InputMethodManager.SHOW_IMPLICIT, 0)
