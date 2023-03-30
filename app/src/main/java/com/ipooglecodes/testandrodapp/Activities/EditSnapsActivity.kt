@@ -60,7 +60,6 @@ class EditSnapsActivity() : AppCompatActivity() {
         var textView = findViewById<EditText>(R.id.editTextTextMultiLine)
         val selectAllButton = findViewById<Button>(R.id.selectAllButton)
         val pasteButton = findViewById<Button>(R.id.pasteButton)
-
         //registerForContextMenu(textView)
 
 
