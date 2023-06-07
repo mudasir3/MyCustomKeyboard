@@ -76,6 +76,7 @@ class EditSnapsActivity() : AppCompatActivity() {
 
 
 
+
         if (lastPostitonIndex == -1) {
             actionBar!!.title = "New"
         } else {
