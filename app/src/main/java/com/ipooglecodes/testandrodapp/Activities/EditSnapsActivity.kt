@@ -71,7 +71,6 @@ class EditSnapsActivity() : AppCompatActivity() {
 //            imm.showSoftInput(textView, InputMethodManager.SHOW_IMPLICIT)
 //        }
 
-
         if (lastPostitonIndex == -1) {
             actionBar!!.title = "New"
         } else {
