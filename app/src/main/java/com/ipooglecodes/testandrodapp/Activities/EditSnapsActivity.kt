@@ -81,6 +81,7 @@ class EditSnapsActivity() : AppCompatActivity() {
         actionBar.setDisplayHomeAsUpEnabled(true)
 
 
+
         selectAllButton.setOnClickListener {
             //textView.isSelected = true
             //textView.setSelectAllOnFocus(true)
