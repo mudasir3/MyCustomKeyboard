@@ -82,7 +82,6 @@ class EditSnapsActivity() : AppCompatActivity() {
 
 
 
-
         selectAllButton.setOnClickListener {
             //textView.isSelected = true
             //textView.setSelectAllOnFocus(true)
