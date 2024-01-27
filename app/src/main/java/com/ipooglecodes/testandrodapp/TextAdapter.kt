@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.ipooglecodes.testandrodapp.Activities.isInEditMode
 
 
+
 var allSavedTexts: Array<String> = emptyArray()
 
 class TextAdapter(private val listener: OnItemClickListener) : RecyclerView.Adapter<TextAdapter.TextViewHolder>() {
