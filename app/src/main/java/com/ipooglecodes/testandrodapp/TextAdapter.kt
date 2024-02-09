@@ -12,6 +12,7 @@ import com.ipooglecodes.testandrodapp.Activities.isInEditMode
 
 var allSavedTexts: Array<String> = emptyArray()
 
+
 class TextAdapter(private val listener: OnItemClickListener) : RecyclerView.Adapter<TextAdapter.TextViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TextViewHolder {
