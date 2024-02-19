@@ -27,6 +27,7 @@ class TextAdapter(private val listener: OnItemClickListener) : RecyclerView.Adap
         holder.textView.text = text
         if (isInEditMode) {
             holder.imageView.setImageResource(R.drawable.reorder)
+
             holder.removeImageView.visibility = View.VISIBLE
         } else {
             holder.imageView.setImageResource(R.drawable.keyboard_arrow_right)
