@@ -22,7 +22,6 @@ class TextAdapter(private val listener: OnItemClickListener) : RecyclerView.Adap
     }
 
 
-
     override fun onBindViewHolder(holder: TextViewHolder, position: Int) {
         val text = allSavedTexts[position]
         holder.textView.text = text
