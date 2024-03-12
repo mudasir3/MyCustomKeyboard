@@ -31,6 +31,7 @@ class TextAdapter(private val listener: OnItemClickListener) : RecyclerView.Adap
             holder.imageView.setImageResource(R.drawable.keyboard_arrow_right)
             holder.removeImageView.visibility= View.GONE
         }
+
         //Log.d("activityState", "Bound adapter")
         //update()
 //        Timer().schedule(500) {
