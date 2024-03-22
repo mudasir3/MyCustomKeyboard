@@ -42,6 +42,7 @@ class TextAdapter(private val listener: OnItemClickListener) : RecyclerView.Adap
 //        }
     }
 
+
     override fun getItemCount() = allSavedTexts.size
 
 //    override fun getItemCount(): Int {
