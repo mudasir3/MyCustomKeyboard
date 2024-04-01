@@ -24,7 +24,6 @@ private const val LOG_TAG = "MyApplication"
 
 /** Application class that initializes, loads and show ads when activities change states. */
 class Application : Application(), Application.ActivityLifecycleCallbacks, LifecycleObserver {
-
     private lateinit var appOpenAdManager: AppOpenAdManager
     private var currentActivity: Activity? = null
 
