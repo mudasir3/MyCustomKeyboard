@@ -33,7 +33,6 @@ class Application : Application(), Application.ActivityLifecycleCallbacks, Lifec
 
         // Log the Mobile Ads SDK version.
         Log.d(LOG_TAG, "Google Mobile Ads SDK Version: " + MobileAds.getVersion())
-
         MobileAds.initialize(this) {}
         ProcessLifecycleOwner.get().lifecycle.addObserver(this)
         appOpenAdManager = AppOpenAdManager()
