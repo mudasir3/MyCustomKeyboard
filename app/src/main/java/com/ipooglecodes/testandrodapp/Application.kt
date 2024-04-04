@@ -48,6 +48,7 @@ class Application : Application(), Application.ActivityLifecycleCallbacks, Lifec
     /** ActivityLifecycleCallback methods. */
     override fun onActivityCreated(activity: Activity, savedInstanceState: Bundle?) {}
 
+
     override fun onActivityStarted(activity: Activity) {
         // An ad activity is started when an ad is showing, which could be AdActivity class from Google
         // SDK or another activity class implemented by a third party mediation partner. Updating the
