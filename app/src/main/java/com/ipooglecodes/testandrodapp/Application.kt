@@ -69,6 +69,7 @@ class Application : Application(), Application.ActivityLifecycleCallbacks, Lifec
 
     override fun onActivityDestroyed(activity: Activity) {}
 
+
     /**
      * Shows an app open ad.
      *
