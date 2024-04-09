@@ -94,6 +94,8 @@ class Application : Application(), Application.ActivityLifecycleCallbacks, Lifec
     /** Inner class that loads and shows app open ads. */
     private inner class AppOpenAdManager {
 
+
+
         private var appOpenAd: AppOpenAd? = null
         private var isLoadingAd = false
         var isShowingAd = false
