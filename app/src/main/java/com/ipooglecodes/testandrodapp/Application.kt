@@ -114,6 +114,7 @@ class Application : Application(), Application.ActivityLifecycleCallbacks, Lifec
                 return
             }
 
+
             isLoadingAd = true
             val request = AdRequest.Builder().build()
             AppOpenAd.load(
