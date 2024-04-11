@@ -136,6 +136,7 @@ class Application : Application(), Application.ActivityLifecycleCallbacks, Lifec
                       //  Toast.makeText(context, "onAdLoaded", Toast.LENGTH_SHORT).show()
                     }
 
+
                     /**
                      * Called when an app open ad has failed to load.
                      *
