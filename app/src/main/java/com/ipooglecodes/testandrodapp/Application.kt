@@ -151,6 +151,7 @@ class Application : Application(), Application.ActivityLifecycleCallbacks, Lifec
             )
         }
 
+
         /** Check if ad was loaded more than n hours ago. */
         private fun wasLoadTimeLessThanNHoursAgo(numHours: Long): Boolean {
             val dateDifference: Long = Date().time - loadTime
