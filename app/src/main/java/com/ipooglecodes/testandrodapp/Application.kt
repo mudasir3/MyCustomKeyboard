@@ -160,6 +160,7 @@ class Application : Application(), Application.ActivityLifecycleCallbacks, Lifec
         }
 
 
+
         /** Check if ad exists and can be shown. */
         private fun isAdAvailable(): Boolean {
             // Ad references in the app open beta will time out after four hours, but this time limit
