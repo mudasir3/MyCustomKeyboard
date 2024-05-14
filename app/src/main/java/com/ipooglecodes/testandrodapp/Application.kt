@@ -168,6 +168,7 @@ class Application : Application(), Application.ActivityLifecycleCallbacks, Lifec
             return appOpenAd != null && wasLoadTimeLessThanNHoursAgo(4)
         }
 
+
         /**
          * Show the ad if one isn't already showing.
          *
