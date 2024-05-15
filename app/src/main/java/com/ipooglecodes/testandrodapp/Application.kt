@@ -185,6 +185,7 @@ class Application : Application(), Application.ActivityLifecycleCallbacks, Lifec
             )
         }
 
+
         /**
          * Show the ad if one isn't already showing.
          *
