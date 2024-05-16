@@ -199,6 +199,7 @@ class Application : Application(), Application.ActivityLifecycleCallbacks, Lifec
                 return
             }
 
+
             // If the app open ad is not available yet, invoke the callback then load the ad.
             if (!isAdAvailable()) {
                 Log.d(LOG_TAG, "The app open ad is not ready yet.")
