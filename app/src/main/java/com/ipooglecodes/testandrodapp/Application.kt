@@ -211,6 +211,7 @@ class Application : Application(), Application.ActivityLifecycleCallbacks, Lifec
 
             Log.d(LOG_TAG, "Will show ad.")
 
+
             appOpenAd!!.setFullScreenContentCallback(
                 object : FullScreenContentCallback() {
                     /** Called when full screen content is dismissed. */
