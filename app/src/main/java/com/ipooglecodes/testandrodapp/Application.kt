@@ -238,6 +238,7 @@ class Application : Application(), Application.ActivityLifecycleCallbacks, Lifec
                         loadAd(activity)
                     }
 
+
                     /** Called when fullscreen content is shown. */
                     override fun onAdShowedFullScreenContent() {
                         Log.d(LOG_TAG, "onAdShowedFullScreenContent.")
