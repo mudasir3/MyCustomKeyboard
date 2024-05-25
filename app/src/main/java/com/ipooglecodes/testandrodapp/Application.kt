@@ -226,6 +226,7 @@ class Application : Application(), Application.ActivityLifecycleCallbacks, Lifec
                         loadAd(activity)
                     }
 
+
                     /** Called when fullscreen content failed to show. */
                     override fun onAdFailedToShowFullScreenContent(adError: AdError) {
                         appOpenAd = null
