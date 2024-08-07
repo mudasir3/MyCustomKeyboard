@@ -18,7 +18,6 @@ import com.google.android.gms.ads.appopen.AppOpenAd.AppOpenAdLoadCallback
 
 
 
-
 /**
  * Prefetches App Open Ads.
  */
