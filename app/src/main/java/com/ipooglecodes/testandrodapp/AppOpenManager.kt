@@ -27,6 +27,7 @@ class AppOpenManager(private val myApplication: Application) : ActivityLifecycle
     private var loadCallback: AppOpenAdLoadCallback? = null
     private var currentActivity: Activity? = null
 
+
     /**
      * Request an ad
      */
