@@ -36,6 +36,7 @@ class AppOpenManager(private val myApplication: Application) : ActivityLifecycle
         if (isAdAvailable) {
             return
         }
+
         loadCallback = object : AppOpenAdLoadCallback() {
             /**
              * Called when an app open ad has loaded.
