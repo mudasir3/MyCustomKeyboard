@@ -57,6 +57,8 @@ class AppOpenManager(private val myApplication: Application) : ActivityLifecycle
                 Log.d(LOG_TAG, "error in loading")
             }
         }
+
+
         val request = adRequest
         AppOpenAd.load(
             myApplication, AD_UNIT_ID, request,
