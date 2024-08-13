@@ -76,6 +76,7 @@ class AppOpenManager(private val myApplication: Application) : ActivityLifecycle
         // and an ad is available.
         if (!isShowingAd && isAdAvailable) {
             Log.d(LOG_TAG, "Will show ad.")
+
             val fullScreenContentCallback: FullScreenContentCallback =
                 object : FullScreenContentCallback() {
                     override fun onAdDismissedFullScreenContent() {
