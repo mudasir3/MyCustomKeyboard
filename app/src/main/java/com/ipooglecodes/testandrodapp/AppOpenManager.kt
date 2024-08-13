@@ -67,6 +67,7 @@ class AppOpenManager(private val myApplication: Application) : ActivityLifecycle
 
     }
 
+
     /**
      * Shows the ad if one isn't already showing.
      */
