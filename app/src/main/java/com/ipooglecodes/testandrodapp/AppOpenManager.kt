@@ -86,6 +86,7 @@ class AppOpenManager(private val myApplication: Application) : ActivityLifecycle
                         fetchAd()
                     }
 
+
                     override fun onAdFailedToShowFullScreenContent(adError: AdError) {}
                     override fun onAdShowedFullScreenContent() {
                         isShowingAd = true
