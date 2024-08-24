@@ -91,6 +91,7 @@ class AppOpenManager(private val myApplication: Application) : ActivityLifecycle
                     override fun onAdShowedFullScreenContent() {
                         isShowingAd = true
                     }
+
                 }
             appOpenAd!!.show(currentActivity!!)
         } else {
