@@ -117,6 +117,7 @@ class AppOpenManager(private val myApplication: Application) : ActivityLifecycle
     override fun onActivityCreated(activity: Activity, bundle: Bundle?) {}
     override fun onActivityStarted(activity: Activity) {
         currentActivity = activity
+
     }
 
     override fun onActivityResumed(activity: Activity) {
