@@ -95,6 +95,7 @@ class AppOpenManager(private val myApplication: Application) : ActivityLifecycle
                 }
             appOpenAd!!.show(currentActivity!!)
         } else {
+
             Log.d(LOG_TAG, "Can not show ad.")
             fetchAd()
         }
