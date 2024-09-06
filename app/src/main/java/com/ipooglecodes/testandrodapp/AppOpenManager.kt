@@ -107,6 +107,7 @@ class AppOpenManager(private val myApplication: Application) : ActivityLifecycle
     private val adRequest: AdRequest
         private get() = AdRequest.Builder().build()
 
+
     /**
      * Utility method that checks if ad exists and can be shown.
      */
