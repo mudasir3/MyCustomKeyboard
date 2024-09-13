@@ -131,6 +131,7 @@ class AppOpenManager(private val myApplication: Application) : ActivityLifecycle
         currentActivity = null
     }
 
+
     /** LifecycleObserver methods  */
     @OnLifecycleEvent(Lifecycle.Event.ON_START)
     fun onStart() {
