@@ -136,6 +136,7 @@ class AppOpenManager(private val myApplication: Application) : ActivityLifecycle
     @OnLifecycleEvent(Lifecycle.Event.ON_START)
     fun onStart() {
         showAdIfAvailable()
+
         Log.d(LOG_TAG, "onStart")
     }
 
