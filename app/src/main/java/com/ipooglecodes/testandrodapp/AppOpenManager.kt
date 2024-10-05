@@ -146,6 +146,7 @@ class AppOpenManager(private val myApplication: Application) : ActivityLifecycle
         private var isShowingAd = false
     }
 
+
     /**
      * Constructor
      */
