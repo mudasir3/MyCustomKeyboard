@@ -27,6 +27,7 @@ class MyInputMethodService : InputMethodService(), KeyboardView.OnKeyboardAction
     TextAdapter.OnItemClickListener {
 
 
+
     private val adapter = TextAdapter(this)
     private var isInDetailView = false
     private var currentSnap = ""
