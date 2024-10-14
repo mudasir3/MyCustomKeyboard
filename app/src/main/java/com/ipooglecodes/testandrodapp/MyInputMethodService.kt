@@ -26,6 +26,7 @@ import com.ipooglecodes.testandrodapp.Activities.isInEditMode
 class MyInputMethodService : InputMethodService(), KeyboardView.OnKeyboardActionListener,
     TextAdapter.OnItemClickListener {
 
+
     private val adapter = TextAdapter(this)
     private var isInDetailView = false
     private var currentSnap = ""
