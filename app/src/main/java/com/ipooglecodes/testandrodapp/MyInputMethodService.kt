@@ -38,7 +38,6 @@ class MyInputMethodService : InputMethodService(), KeyboardView.OnKeyboardAction
     private lateinit var main_text_view: TextView
 
 
-
     //    @RequiresApi(Build.VERSION_CODES.P) //REMOVE THIS LATER TO SUPPORT LOWER API LEVELS
     @SuppressLint("ClickableViewAccessibility")
     override fun onCreateInputView(): View {
