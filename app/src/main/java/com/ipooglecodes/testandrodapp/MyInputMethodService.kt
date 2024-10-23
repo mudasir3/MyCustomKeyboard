@@ -39,7 +39,6 @@ class MyInputMethodService : InputMethodService(), KeyboardView.OnKeyboardAction
 
 
 
-
     //    @RequiresApi(Build.VERSION_CODES.P) //REMOVE THIS LATER TO SUPPORT LOWER API LEVELS
     @SuppressLint("ClickableViewAccessibility")
     override fun onCreateInputView(): View {
