@@ -53,6 +53,7 @@ class MyInputMethodService : InputMethodService(), KeyboardView.OnKeyboardAction
         var sendButton = View.findViewById(R.id.send_button) as Button
         img_cross = View.findViewById(R.id.img_cross)
 
+
         val pref = getSharedPreferences("default", Context.MODE_PRIVATE)
 //        var autopaste =pref.getBoolean("autopaste",false)
 //        if (autopaste){
