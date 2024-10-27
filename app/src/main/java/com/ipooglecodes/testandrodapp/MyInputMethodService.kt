@@ -63,6 +63,7 @@ class MyInputMethodService : InputMethodService(), KeyboardView.OnKeyboardAction
 //            sendButton.text="Send"
 //        }
 
+
         val mode = applicationContext.resources?.configuration?.uiMode?.and(Configuration.UI_MODE_NIGHT_MASK)
         when (mode) {
             Configuration.UI_MODE_NIGHT_YES -> {
