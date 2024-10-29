@@ -72,6 +72,7 @@ class MyInputMethodService : InputMethodService(), KeyboardView.OnKeyboardAction
                 keyboardDetailView!!.setBackground(ContextCompat.getDrawable(applicationContext, R.color.dark))
                 main_text_view.setTextColor(resources.getColor(R.color.white))
             }
+
             Configuration.UI_MODE_NIGHT_NO -> {
                 constraintlayout!!.setBackground(ContextCompat.getDrawable(applicationContext, R.color.white))
                 keyboardDetailView!!.setBackground(ContextCompat.getDrawable(applicationContext, R.color.white))
