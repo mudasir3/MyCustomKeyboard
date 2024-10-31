@@ -87,6 +87,8 @@ class MyInputMethodService : InputMethodService(), KeyboardView.OnKeyboardAction
             }
         }
 
+
+
         //Get data in shared preferences
         val textsString = pref.getString("AllSavedTexts", "?").toString()
         val pastespeed = pref.getFloat("pastespeed", 0.0F)
