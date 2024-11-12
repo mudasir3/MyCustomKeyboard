@@ -110,6 +110,7 @@ class MyInputMethodService : InputMethodService(), KeyboardView.OnKeyboardAction
         if (pastespeed == 4.0F) {
             speed = 700
         }
+
         if (pastespeed == 5.0F) {
             speed = 600
         }
