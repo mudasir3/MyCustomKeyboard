@@ -127,6 +127,7 @@ class MyInputMethodService : InputMethodService(), KeyboardView.OnKeyboardAction
             speed = 100
         }
 
+
         Log.e("sliderr ", " speed " + speed)
 
         Log.d("open", textsString)
