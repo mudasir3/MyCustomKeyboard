@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ipooglecodes.testandrodapp">
+    >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
 
-        android:name=".Application"
+        android:name="com.maddyapps.mycutomkeyboard.Application"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,36 +19,37 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-4007475841337139~8929562325"/>
 
-        <activity
-            android:name="com.ironsource.sdk.controller.ControllerActivity"
-            android:configChanges="orientation|screenSize"
-            android:hardwareAccelerated="true" />
-        <activity
-            android:name="com.ironsource.sdk.controller.InterstitialActivity"
-            android:configChanges="orientation|screenSize"
-            android:hardwareAccelerated="true"
-            android:theme="@android:style/Theme.Translucent" />
-        <activity
-            android:name="com.ironsource.sdk.controller.OpenUrlActivity"
-            android:configChanges="orientation|screenSize"
-            android:hardwareAccelerated="true"
-            android:theme="@android:style/Theme.Translucent" />
-        <provider
-            android:authorities="${applicationId}.IronsourceLifecycleProvider"
-            android:name="com.ironsource.lifecycle.IronsourceLifecycleProvider" />
+<!--        <activity-->
+<!--            android:name="com.ironsource.sdk.controller.ControllerActivity"-->
+<!--            android:configChanges="orientation|screenSize"-->
+<!--            android:hardwareAccelerated="true" />-->
+<!--        <activity-->
+<!--            android:name="com.ironsource.sdk.controller.InterstitialActivity"-->
+<!--            android:configChanges="orientation|screenSize"-->
+<!--            android:hardwareAccelerated="true"-->
+<!--            android:theme="@android:style/Theme.Translucent" />-->
+<!--        <activity-->
+<!--            android:name="com.ironsource.sdk.controller.OpenUrlActivity"-->
+<!--            android:configChanges="orientation|screenSize"-->
+<!--            android:hardwareAccelerated="true"-->
+<!--            android:theme="@android:style/Theme.Translucent" />-->
+<!--        <provider-->
+<!--            android:authorities="${applicationId}.IronsourceLifecycleProvider"-->
+<!--            android:name="com.ironsource.lifecycle.IronsourceLifecycleProvider" />-->
 
-        <activity android:name="com.ipooglecodes.testandrodapp.Activities.MainActivity">
+        <activity android:name="com.maddyapps.mycutomkeyboard.Activities.MainActivity"
+            android:exported="true">
              <intent-filter>
              <action android:name="android.intent.action.MAIN" />
 
              <category android:name="android.intent.category.LAUNCHER" />
              </intent-filter>
         </activity>
-        <activity android:name="com.ipooglecodes.testandrodapp.Activities.TutorialActivity" />
+        <activity android:name="com.maddyapps.mycutomkeyboard.Activities.TutorialActivity" />
         <activity
-            android:name="com.ipooglecodes.testandrodapp.Activities.EditSnapsActivity"
-            android:parentActivityName="com.ipooglecodes.testandrodapp.Activities.MainActivity" />
-        <activity android:name="com.ipooglecodes.testandrodapp.Activities.NextActivity">
+            android:name="com.maddyapps.mycutomkeyboard.Activities.EditSnapsActivity"
+            android:parentActivityName="com.maddyapps.mycutomkeyboard.Activities.MainActivity" />
+        <activity android:name="com.maddyapps.mycutomkeyboard.Activities.NextActivity">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 
@@ -56,7 +57,8 @@
 <!--            </intent-filter>-->
         </activity> <!-- Declares the input method service -->
         <service
-            android:name="com.ipooglecodes.testandrodapp.MyInputMethodService"
+            android:name="com.maddyapps.mycutomkeyboard.MyInputMethodService"
+            android:exported="true"
             android:label="AutoSnap"
             android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>

@@ -13,16 +13,16 @@
         android:layout_above="@+id/rel_bottom"
         ></FrameLayout>
 
-    <com.google.android.gms.ads.AdView
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/adView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_above="@id/rel_bottom"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
-    </com.google.android.gms.ads.AdView>
+<!--    <com.google.android.gms.ads.AdView-->
+<!--        xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--        android:id="@+id/adView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_above="@id/rel_bottom"-->
+<!--        ads:adSize="BANNER"-->
+<!--        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">-->
+<!--    </com.google.android.gms.ads.AdView>-->
 
     <RelativeLayout
         android:id="@+id/rel_bottom"
@@ -51,6 +51,7 @@
                     android:layout_width="25dp"
                     android:layout_height="25dp"
                     android:scaleType="fitXY"
+                    android:tint="@color/purple_500"
                     android:src="@drawable/edit_snap_selected"
                     android:layout_centerHorizontal="true"/>
                 <TextView
@@ -59,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:text="Edit Snaps"
                     android:layout_marginTop="5dp"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/purple_500"
                     android:layout_below="@id/imgsnaps"
                     android:layout_centerHorizontal="true"
                     android:layout_marginBottom="10dp"
